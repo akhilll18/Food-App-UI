@@ -1,73 +1,71 @@
 import React from "react";
-import {
-  Box,
-  Typography,
-  Button,
-  Grid,
-  Card,
-  Container,
-} from "@mui/material";
-
+import { Box, Typography, Button, Grid, Card, Container } from "@mui/material";
 
 const HomeChefPartner = () => {
   const features = [
     {
       icon: "🛡️",
       title: "Safety & Hygiene",
-      description: "Maintain High Standards. Cook with confidence.  We provide guidelines and support to help you meet food safety best practices."
+      description:
+        "Maintain High Standards. Cook with confidence.  We provide guidelines and support to help you meet food safety best practices.",
     },
     {
       icon: "🤝",
       title: "Support & Protection",
-      description: "Dedicated Support & Insurance. You're not alone. Our partner support team is here to help, and you're covered by our liability protection program."
+      description:
+        "Dedicated Support & Insurance. You're not alone. Our partner support team is here to help, and you're covered by our liability protection program.",
     },
     {
       icon: "💵",
       title: "Transparent Earnings",
-      description: "Keep What You Earn. We believe in fair pay. You set your prices, and we have a simple, transparent commission structure. No hidden fees."
+      description:
+        "Keep What You Earn. We believe in fair pay. You set your prices, and we have a simple, transparent commission structure. No hidden fees.",
     },
     {
       icon: "📸",
       title: "Zero Upfront Costs",
-      description: "Start for Free. No listing fees, no subscription charges, no hidden setup costs. You only pay a small commission when you earn—so you risk nothing to get started."
+      description:
+        "Start for Free. No listing fees, no subscription charges, no hidden setup costs. You only pay a small commission when you earn—so you risk nothing to get started.",
     },
     {
       icon: "⏱️",
       title: "Easy Onboarding",
-      description: "Quick & Simple Setup. Get verified and start listing your dishes in days, not weeks. Our streamlined process gets you cooking faster."
+      description:
+        "Quick & Simple Setup. Get verified and start listing your dishes in days, not weeks. Our streamlined process gets you cooking faster.",
     },
     {
       icon: "📱",
       title: "User-Friendly Dashboard",
-      description: "Manage Everything in One Place. Track orders, update your menu, view earnings, and communicate with customers—all from our easy-to-use partner app."
+      description:
+        "Manage Everything in One Place. Track orders, update your menu, view earnings, and communicate with customers—all from our easy-to-use partner app.",
     },
     {
       icon: "🏆",
       title: "Build Your Brand",
-      description: "Grow Your Reputation. Collect customer reviews, build a loyal following, and establish yourself as a go-to home chef in your neighborhood."
+      description:
+        "Grow Your Reputation. Collect customer reviews, build a loyal following, and establish yourself as a go-to home chef in your neighborhood.",
     },
     {
       icon: "📊",
       title: "Real-Time Analytics",
-      description: "Know Your Business. Access insights on your most popular dishes, peak order times, and customer preferences to optimize your menu and maximize earnings."
+      description:
+        "Know Your Business. Access insights on your most popular dishes, peak order times, and customer preferences to optimize your menu and maximize earnings.",
     },
     {
       icon: "🚚",
       title: "No Delivery Hassle",
-      description: "Focus on Cooking. We handle the logistics—customers pick up or we connect you with delivery partners. You just focus on what you do best: creating amazing food."
+      description:
+        "Focus on Cooking. We handle the logistics—customers pick up or we connect you with delivery partners. You just focus on what you do best: creating amazing food.",
     },
-   
-    
   ];
 
   return (
     <Container maxWidth="lg" sx={{ py: 4, px: 2 }}>
-      
       <Typography
         variant="h3"
         sx={{
           fontWeight: 700,
-          alignItems: "center",  
+          alignItems: "center",
           mb: 4,
           color: "#2c3e2f",
           borderBottom: "3px solid #f7b32b",
@@ -80,7 +78,6 @@ const HomeChefPartner = () => {
         Homechef Partner
       </Typography>
 
-      
       <Box
         sx={{
           display: "flex",
@@ -88,10 +85,9 @@ const HomeChefPartner = () => {
           justifyContent: "space-between",
           gap: 3,
           mb: 8,
-          flexWrap: { xs: "wrap", md: "nowrap" }, 
+          flexWrap: { xs: "wrap", md: "nowrap" },
         }}
       >
-     
         <Box sx={{ flex: 1, textAlign: "center" }}>
           <Box
             component="img"
@@ -107,7 +103,6 @@ const HomeChefPartner = () => {
           />
         </Box>
 
-     
         <Box
           sx={{
             flex: 1,
@@ -233,7 +228,6 @@ const HomeChefPartner = () => {
         </Grid>
       </Grid>
 
-     
       <Box sx={{ mb: 4 }}>
         <Typography
           variant="h4"
@@ -313,94 +307,417 @@ const HomeChefPartner = () => {
           </Box>
         </Box>
       </Box>
- <Box sx={{ mt: 8, mb: 4 }}>
-      <Typography
-        variant="h4"
-        sx={{
-          fontWeight: 700,
-          textAlign: 'center',
-          mb: 2,
-          color: '#2c3e2f',
-        }}
-      >
-        Everything You Need to Succeed
-      </Typography>
 
-      <Typography
-        variant="body1"
-        sx={{
-          fontSize: '1.1rem',
-          color: '#666',
-          textAlign: 'center',
-          mb: 6,
-          maxWidth: 700,
-          mx: 'auto',
-        }}
-      >
-        We provide all the tools, support, and resources to help you grow your home chef business
-      </Typography>
-
-    
-      <Grid container spacing={3}>
-        {features.map((feature, index) => (
-          <Grid size={{ xs: 12, sm: 6, md: 4 }} key={index}>
-            <Card
-              sx={{
-                textAlign: 'center',
-                p: 3,
-                borderRadius: 3,
-                height: '100%',
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'flex-start',
-                transition: 'transform 0.3s, box-shadow 0.3s',
-                '&:hover': {
-                  transform: 'translateY(-5px)',
-                  boxShadow: '0 8px 20px rgba(0,0,0,0.12)',
-                },
-              }}
-            >
+      <Box sx={{ py: 6, backgroundColor: "#fff9f0 !important", width: "100%" }}>
+        <Container maxWidth="lg">
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: 4,
+            }}
+          >
+            <Box sx={{ width: "100%", maxWidth: 1000, mx: "auto" }}>
               <Typography
-                variant="h2"
+                variant="h3"
                 sx={{
-                  fontSize: '3rem',
-                  mb: 2,
+                  fontWeight: 800,
+                  mb: 3,
+                  color: "#2c3e2f",
+                  fontSize: { xs: "2rem", md: "2.8rem" },
+                  textAlign: "center",
+                  position: "relative",
+                  "&:after": {
+                    content: '""',
+                    position: "absolute",
+                    bottom: "-10px",
+                    left: "50%",
+                    transform: "translateX(-50%)",
+                    width: "80px",
+                    height: "4px",
+                    backgroundColor: "#f7b32b",
+                    borderRadius: "2px",
+                  },
                 }}
               >
-                {feature.icon}
+                Who Can Become a Home Chef?
               </Typography>
 
               <Typography
-                variant="h6"
+                variant="body1"
                 sx={{
+                  fontSize: "1.1rem",
+                  lineHeight: 1.8,
+                  color: "#4a5568",
+                  mb: 5,
+                  textAlign: "center",
+                  maxWidth: 800,
+                  mx: "auto",
+                  mt: 4,
+                }}
+              >
+                Anyone who loves cooking can apply. Whether you're a home cook,
+                a passionate foodie, a retired professional, or a parent cooking
+                for the family – if your food brings smiles, we want you on our
+                platform. No professional training required, just genuine love
+                for cooking and dedication to quality.
+              </Typography>
+
+              <Typography
+                variant="h4"
+                sx={{
+                  fontSize: "2rem",
                   fontWeight: 700,
-                  mb: 1,
-                  color: '#2c3e2f',
-                  fontSize: '1.1rem',
+                  color: "#2c3e2f",
+                  mb: 4,
+                  textAlign: "center",
                 }}
               >
-                {feature.title}
+                Who Can Join:
               </Typography>
 
-              <Typography
-                variant="body2"
+              <Grid container spacing={3} sx={{ mb: 6 }}>
+                <Grid size={{ xs: 12, md: 6 }}>
+                  <Card
+                    sx={{
+                      p: 2.5,
+                      borderRadius: 3,
+                      transition: "all 0.3s ease",
+                      "&:hover": {
+                        transform: "translateY(-4px)",
+                        boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
+                        borderLeft: "4px solid #f7b32b",
+                      },
+                      borderLeft: "4px solid transparent",
+                      backgroundColor: "#fafafa",
+                    }}
+                  >
+                    <Typography
+                      variant="h6"
+                      sx={{ fontWeight: 700, color: "#f7b32b", mb: 1 }}
+                    >
+                      🏠 Homemakers
+                    </Typography>
+                    <Typography
+                      variant="body2"
+                      sx={{ color: "#4a5568", lineHeight: 1.6 }}
+                    >
+                      Turn your daily cooking into a career. Your family recipes
+                      and home-style meals are exactly what customers are
+                      craving.
+                    </Typography>
+                  </Card>
+                </Grid>
+
+                <Grid size={{ xs: 12, md: 6 }}>
+                  <Card
+                    sx={{
+                      p: 2.5,
+                      borderRadius: 3,
+                      transition: "all 0.3s ease",
+                      "&:hover": {
+                        transform: "translateY(-4px)",
+                        boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
+                        borderLeft: "4px solid #f7b32b",
+                      },
+                      borderLeft: "4px solid transparent",
+                      backgroundColor: "#fafafa",
+                    }}
+                  >
+                    <Typography
+                      variant="h6"
+                      sx={{ fontWeight: 700, color: "#f7b32b", mb: 1 }}
+                    >
+                      👴 Retired Professionals
+                    </Typography>
+                    <Typography
+                      variant="body2"
+                      sx={{ color: "#4a5568", lineHeight: 1.6 }}
+                    >
+                      Stay active and engaged by sharing your culinary skills.
+                      Use your free time to connect with your community through
+                      food.
+                    </Typography>
+                  </Card>
+                </Grid>
+
+                <Grid size={{ xs: 12, md: 6 }}>
+                  <Card
+                    sx={{
+                      p: 2.5,
+                      borderRadius: 3,
+                      transition: "all 0.3s ease",
+                      "&:hover": {
+                        transform: "translateY(-4px)",
+                        boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
+                        borderLeft: "4px solid #f7b32b",
+                      },
+                      borderLeft: "4px solid transparent",
+                      backgroundColor: "#fafafa",
+                    }}
+                  >
+                    <Typography
+                      variant="h6"
+                      sx={{ fontWeight: 700, color: "#f7b32b", mb: 1 }}
+                    >
+                      🎓 College Students
+                    </Typography>
+                    <Typography
+                      variant="body2"
+                      sx={{ color: "#4a5568", lineHeight: 1.6 }}
+                    >
+                      Earn pocket money by cooking the meals you already make
+                      for yourself. Share your favorite quick recipes with
+                      fellow students.
+                    </Typography>
+                  </Card>
+                </Grid>
+
+                <Grid size={{ xs: 12, md: 6 }}>
+                  <Card
+                    sx={{
+                      p: 2.5,
+                      borderRadius: 3,
+                      transition: "all 0.3s ease",
+                      "&:hover": {
+                        transform: "translateY(-4px)",
+                        boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
+                        borderLeft: "4px solid #f7b32b",
+                      },
+                      borderLeft: "4px solid transparent",
+                      backgroundColor: "#fafafa",
+                    }}
+                  >
+                    <Typography
+                      variant="h6"
+                      sx={{ fontWeight: 700, color: "#f7b32b", mb: 1 }}
+                    >
+                      😋 Passionate Food Lovers
+                    </Typography>
+                    <Typography
+                      variant="body2"
+                      sx={{ color: "#4a5568", lineHeight: 1.6 }}
+                    >
+                      Always experimenting in the kitchen? Turn your hobby into
+                      a source of income while getting real feedback.
+                    </Typography>
+                  </Card>
+                </Grid>
+
+                <Grid size={{ xs: 12, md: 6 }}>
+                  <Card
+                    sx={{
+                      p: 2.5,
+                      borderRadius: 3,
+                      transition: "all 0.3s ease",
+                      "&:hover": {
+                        transform: "translateY(-4px)",
+                        boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
+                        borderLeft: "4px solid #f7b32b",
+                      },
+                      borderLeft: "4px solid transparent",
+                      backgroundColor: "#fafafa",
+                    }}
+                  >
+                    <Typography
+                      variant="h6"
+                      sx={{ fontWeight: 700, color: "#f7b32b", mb: 1 }}
+                    >
+                      💼 Working Professionals
+                    </Typography>
+                    <Typography
+                      variant="body2"
+                      sx={{ color: "#4a5568", lineHeight: 1.6 }}
+                    >
+                      Love cooking but have limited time? Work on weekends or
+                      evenings and earn extra income without compromising.
+                    </Typography>
+                  </Card>
+                </Grid>
+
+                <Grid size={{ xs: 12, md: 6 }}>
+                  <Card
+                    sx={{
+                      p: 2.5,
+                      borderRadius: 3,
+                      transition: "all 0.3s ease",
+                      "&:hover": {
+                        transform: "translateY(-4px)",
+                        boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
+                        borderLeft: "4px solid #f7b32b",
+                      },
+                      borderLeft: "4px solid transparent",
+                      backgroundColor: "#fafafa",
+                    }}
+                  >
+                    <Typography
+                      variant="h6"
+                      sx={{ fontWeight: 700, color: "#f7b32b", mb: 1 }}
+                    >
+                      📈 Small-Scale Cooks
+                    </Typography>
+                    <Typography
+                      variant="body2"
+                      sx={{ color: "#4a5568", lineHeight: 1.6 }}
+                    >
+                      Already selling to neighbors or friends? Scale up your
+                      operations with our platform and reach more customers.
+                    </Typography>
+                  </Card>
+                </Grid>
+
+                <Grid size={{ xs: 12, md: 6 }}>
+                  <Card
+                    sx={{
+                      p: 2.5,
+                      borderRadius: 3,
+                      transition: "all 0.3s ease",
+                      "&:hover": {
+                        transform: "translateY(-4px)",
+                        boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
+                        borderLeft: "4px solid #f7b32b",
+                      },
+                      borderLeft: "4px solid transparent",
+                      backgroundColor: "#fafafa",
+                    }}
+                  >
+                    <Typography
+                      variant="h6"
+                      sx={{ fontWeight: 700, color: "#f7b32b", mb: 1 }}
+                    >
+                      💪 Fitness Enthusiasts
+                    </Typography>
+                    <Typography
+                      variant="body2"
+                      sx={{ color: "#4a5568", lineHeight: 1.6 }}
+                    >
+                      Specialize in healthy meals, protein bowls, keto-friendly
+                      dishes, or vegan options for health-conscious customers.
+                    </Typography>
+                  </Card>
+                </Grid>
+
+                <Grid size={{ xs: 12, md: 6 }}>
+                  <Card
+                    sx={{
+                      p: 2.5,
+                      borderRadius: 3,
+                      transition: "all 0.3s ease",
+                      "&:hover": {
+                        transform: "translateY(-4px)",
+                        boxShadow: "0 8px 20px rgba(0,0,0,0.1)",
+                        borderLeft: "4px solid #f7b32b",
+                      },
+                      borderLeft: "4px solid transparent",
+                      backgroundColor: "#fafafa",
+                    }}
+                  >
+                    <Typography
+                      variant="h6"
+                      sx={{ fontWeight: 700, color: "#f7b32b", mb: 1 }}
+                    >
+                      📜 Traditional Recipe Keepers
+                    </Typography>
+                    <Typography
+                      variant="body2"
+                      sx={{ color: "#4a5568", lineHeight: 1.6 }}
+                    >
+                      Have unique family recipes passed down through
+                      generations? Share these authentic flavors with a wider
+                      audience.
+                    </Typography>
+                  </Card>
+                </Grid>
+              </Grid>
+            </Box>
+          </Box>
+        </Container>
+      </Box>
+
+      <Box sx={{ mt: 8, mb: 4 }}>
+        <Typography
+          variant="h4"
+          sx={{
+            fontWeight: 700,
+            textAlign: "center",
+            mb: 2,
+            color: "#2c3e2f",
+          }}
+        >
+          Everything You Need to Succeed
+        </Typography>
+
+        <Typography
+          variant="body1"
+          sx={{
+            fontSize: "1.1rem",
+            color: "#666",
+            textAlign: "center",
+            mb: 6,
+            maxWidth: 700,
+            mx: "auto",
+          }}
+        >
+          We provide all the tools, support, and resources to help you grow your
+          home chef business
+        </Typography>
+
+        <Grid container spacing={3}>
+          {features.map((feature, index) => (
+            <Grid size={{ xs: 12, sm: 6, md: 4 }} key={index}>
+              <Card
                 sx={{
-                  color: '#666',
-                  lineHeight: 1.6,
+                  textAlign: "center",
+                  p: 3,
+                  borderRadius: 3,
+                  height: "100%",
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "flex-start",
+                  transition: "transform 0.3s, box-shadow 0.3s",
+                  "&:hover": {
+                    transform: "translateY(-5px)",
+                    boxShadow: "0 8px 20px rgba(0,0,0,0.12)",
+                  },
                 }}
               >
-                {feature.description}
-              </Typography>
-            </Card>
-          </Grid>
-        ))}
-      </Grid>
-    </Box>
-   
+                <Typography
+                  variant="h2"
+                  sx={{
+                    fontSize: "3rem",
+                    mb: 2,
+                  }}
+                >
+                  {feature.icon}
+                </Typography>
 
-     
-          
+                <Typography
+                  variant="h6"
+                  sx={{
+                    fontWeight: 700,
+                    mb: 1,
+                    color: "#2c3e2f",
+                    fontSize: "1.1rem",
+                  }}
+                >
+                  {feature.title}
+                </Typography>
 
+                <Typography
+                  variant="body2"
+                  sx={{
+                    color: "#666",
+                    lineHeight: 1.6,
+                  }}
+                >
+                  {feature.description}
+                </Typography>
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
+      </Box>
     </Container>
   );
 };
